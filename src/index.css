@@ -1,0 +1,14 @@
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    /* overflow-x: hidden; */
+}
+html,body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+input{
+    font-family: 'Roboto', sans-serif;
+}

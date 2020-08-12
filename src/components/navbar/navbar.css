@@ -1,0 +1,14 @@
+.navbar{
+    border-bottom: 1px solid lightgray;
+    padding:20px;
+    justify-content: space-between;
+    display: flex;
+    background-color: white;
+    position: sticky;
+    top:0px;
+    z-index: 1;
+}
+.navbar__image{
+    object-fit: contain;
+}
+

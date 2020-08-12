@@ -1,0 +1,47 @@
+.post{
+    border: 1px solid lightgray;
+    width: 500px;
+    margin-bottom: 30px;
+}
+.post__header{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+.post__image img {
+    width: 100%;
+    object-fit: contain;
+}
+.post__data{
+    margin: 5px;
+}
+.post__btn{
+    font-weight: 600;
+}
+.post__input{
+    border: none;
+    /* background: aliceblue; */
+    width: 100%;
+    outline: none;  
+}
+.add__comment{
+    display: flex;
+    border-top: 1px solid lightgray;
+    height: 50px;
+}
+
+.post__comments{
+
+}
+
+.post__comments ul{
+    list-style: none;
+    padding: 0px;
+}
+
+.post__activity {
+    display: flex;
+}
+.post__action {
+    margin-right: 10px;
+}

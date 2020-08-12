@@ -1,0 +1,14 @@
+.profile{
+    position: sticky;
+    top: 105px;
+    height: 100%;
+}
+
+.profile__data{
+    display:flex;
+}
+
+.profile__name{
+    align-self: center;
+    margin-left: 5px;
+}

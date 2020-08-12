@@ -1,26 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import NavBar from './components/navbar/navbar.jsx';
+import Feed from './components/feed/feed.jsx';
+import Profile from './components/profile/profile.jsx';
+import user from './data/user';
+import "./App.css";
+
+const App = () => {
+  return ( 
+    <React.Fragment>
+      <NavBar /> 
+      <div className="app__content">
+      <Feed />
+      <Profile />
+      </div> 
+    </React.Fragment>
+   );
 }
-
+ 
 export default App;
