@@ -35,7 +35,7 @@ const comments = [
         data:"comments are working",
     },
     {
-        id:"3",
+        id:"4",
         user_id:"1",
         post_id:"2",
         data:"This comment is for post 2",

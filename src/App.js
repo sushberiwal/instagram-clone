@@ -1,21 +1,23 @@
-import React from 'react';
-
-import NavBar from './components/navbar/navbar.jsx';
-import Feed from './components/feed/feed.jsx';
-import Profile from './components/profile/profile.jsx';
-import user from './data/user';
+import React from "react";
+import { BrowserRouter as Router, Route , Redirect , Switch } from "react-router-dom";
 import "./App.css";
+import Main from "./pages/main";
+import Login from "./pages/login";
 
 const App = () => {
-  return ( 
-    <React.Fragment>
-      <NavBar /> 
-      <div className="app__content">
-      <Feed />
-      <Profile />
-      </div> 
-    </React.Fragment>
-   );
-}
- 
+  return (
+    <Router>
+      <Switch>
+      <Route path="/login" exact>
+        <Login />
+      </Route>
+      <Route path="/homepage" exact>
+        <Main />
+      </Route>
+      <Redirect to="/login"></Redirect>
+      </Switch>
+    </Router>
+  );
+};
+
 export default App;

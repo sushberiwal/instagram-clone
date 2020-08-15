@@ -51,7 +51,7 @@ const Post = (props) => {
     // console.log(event);
     // console.log(postId);
     let obj = {
-      id: "4",
+      id: Math.random()+"",
       user_id: "1",
       post_id: postId + "",
       data: cmnt,
@@ -90,14 +90,10 @@ const Post = (props) => {
       user_id: 1,
     };
     postLikerMap.push(obj);
-    // postLikerMap.map((like) => {
-    //   if (like.user_id == 1 && like.post_id == postId) {
     setIsLiked(true);
-    // return;
-    //   }
-    // });
-    // console.log(postLikerMap.length);
+    console.log(postLikerMap.length);
   }
+  
 
   return (
     <div className="post">

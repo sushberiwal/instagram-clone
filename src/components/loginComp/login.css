@@ -1,0 +1,82 @@
+.login {
+  display: flex;
+  justify-content: space-around;
+  margin: 2rem;
+}
+
+form input {
+  margin-top: 25px;
+  height: 40px;
+  width: 276px;
+  outline: none;
+  border: 1px solid darkgray;
+}
+
+.login__form {
+  display: flex;
+  flex-direction: column;
+  /* text-align: center; */
+  align-items: center;
+}
+
+.login__img img {
+  object-fit: contain;
+  /* height: 100%;
+    width: 100%; */
+}
+
+.phone__pic {
+  position: relative;
+  bottom: 525px;
+  height: 432px;
+  left: 30px;
+}
+.phone__pic img {
+  height: 100%;
+  width: 100%;
+}
+
+.login__details {
+  height: 25rem;
+  width: 20rem;
+  border: 1px solid lightgray;
+  display: flex;
+  flex-direction: column;
+}
+.login__logo {
+  height: 60px;
+  /* border: 1px solid; */
+  margin-top: 20px;
+}
+.login__logo img {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+}
+.login__btn {
+  border: 1px solid lightgray;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.or {
+  color: gray;
+  text-align: center;
+}
+.login__section {
+  margin-top: 3rem;
+}
+.button {
+  /* background-color: dodgerblue; */
+  color: dodgerblue;
+  font-weight: 600;
+  cursor: pointer;
+  /* text-align: center; */
+  /* border-radius: 3px; */
+  /* padding: 2px; */
+  /* margin: 10px; */
+}
+.lgn{
+    margin-top:20px;
+}
